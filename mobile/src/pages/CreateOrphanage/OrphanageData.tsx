@@ -55,7 +55,7 @@ export default function OrphanageData() {
       }as any)
     })
 
-    await api.post('orphanage', data)
+    await api.post('orphanages', data)
 
     navigation.navigate('OrphanagesMap')
     
